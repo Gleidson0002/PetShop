@@ -12,7 +12,7 @@ ul {
 li {
   margin: 100px; 
 }
-a {
+li a {
   /*display: flex;*/
   align-items: center; 
   justify-content: center; 
@@ -83,4 +83,24 @@ header{
 }
 body{
   background-color: #f9f9f9;
+}
+footer{
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  overflow: auto;
+}
+.footerdiv{
+  text-align: center;
+  display: flex;
+  border: 1px solid gray;
+  width: 33%;
+  float: left;
+}
+.footerdiv a{
+  padding: 10px;
+  text-decoration: none;
+  color:rgb(256,164,44);
 }
