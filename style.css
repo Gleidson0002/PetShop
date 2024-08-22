@@ -10,24 +10,20 @@ ul {
     background-color: rgb(33, 47, 60);
   }
 a {
+  font-size: 30px;
+    text-align: center;
+    padding: 2px 140px;
+    text-decoration: none;
     display: block;
-    padding: 8px;
     color:white;
     background-color: rgb(33, 47, 60);
   }
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
   li a:hover {
-    background-color: #111;
+    background-color: rgb(28, 40, 51);
   }
-.nav{
+nav{
     background-color: rgb(33, 47, 60);
-    height: 40px;
+    height: 60px;
     width: 101.3%;
     padding: -10px;
     margin: -10px;
@@ -35,6 +31,10 @@ a {
 body{
     background-color: rgb(27, 38, 49);
 }
-h1{
- color: white;
+.boximg{
+  width: 1000px;
+  background-color: blue;
+  margin:0 auto;
 }
+
+
