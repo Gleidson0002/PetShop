@@ -7,11 +7,14 @@
     align-items: center;
     margin: 0 auto;
     float: left;
-    width: 30%;
+    width: 50%;
 }
 .imgmedia{
-   width: 100px;
-   height: 100px;
+   max-width: 100%;
+   
+}
+section{
+    display:grid;
 }
 .acont{
     margin: 0 auto ;
