@@ -9,41 +9,67 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
-
 <body>
     <header>
-        <nav>
-            <ul>
-                <li id="home"><a href="index.html"><img id="logo" src="Imagens/Pink and Black Simple Pet Shop Logo.png"
-                            alt=""></a></li>
+        <div class="nav1">
+            <a id="logo_a" href="index.html"><img id="logo" src="Imagens/Pink and Black Simple Pet Shop Logo.png" alt=""></a>
+        </div> 
+            <nav>
                 <li><a href="telapredutos.html"><img src="Imagens/icons8-loja-48.png" alt=""></a></li>
                 <li><a href="login.html"><img src="Imagens/icons8-ciclo-de-vida-48.png" alt=""></a></li>
                 <li><a href="cesta.html"><img src="Imagens/icons8-pago-48.png" alt=""></a></li>
                 <li><a href="contatos.html"><img src="Imagens/icons8-assistente-48.png" alt=""></a></li>
-                <li><a href="https://maps.app.goo.gl/5MiashEy7UdzE7JWA"><img src="Imagens\icons8-marcador-50.png" alt=""></a></li>
-            </ul>
-        </nav>
+                <li><a href="https://maps.app.goo.gl/5MiashEy7UdzE7JWA"><img src="Imagens\icons8-marcador-50.png"
+                alt=""></a></li>
+            </nav>
     </header>
-    <section class="boxitens">
-        <h1>Doe´s not exist</h1>
-    </section>
-    <footer>
-        <div class="footerdiv">
-            <h3>Midias</h3>
-             <a href="#"><i class="fa-brands fa-instagram" style="font-size: 30px;"></i></a>
-             <a href="#"><i class="fa-brands fa-facebook" style="font-size: 30px;"></i></a>
-             <a href="#"><i class="fa-brands fa-square-x-twitter" style="font-size: 30px;"></i></a>
-             <a href="#"><i class="fa-brands fa-tiktok" style="font-size: 30px;"></i></i></a>
+    <div class="container">
+
+        <div class="card">
+            <h2>Carrinho de compras</h2>
+            <div class="card-item">
+                <img src="https://www.petlove.com.br/images/products/272176/product/3104832-4_Ra%C3%A7%C3%A3o_Seca_Pedigree_Carne__Frango_e_Cereais_para_C%C3%A3es_Adultos_Ra%C3%A7as_M%C3%A9dias_e_Grandes_-_20_Kg_0.jpg?1692883362" alt="Golden Special">
+                
+                <div class="info">
+                    <p>Ração pedegree adulto - cães</p>
+                   
+                    <div class="quantidade">
+                        <button>-</button>
+                        <input type="text" value="1">
+                        <button>+</button>
+                    </div>
+                    <p class="preço"> R$ 690,90</p>
+                </div>
+                <button class="remove"><i class="fa-solid fa-trash"></i></button>
+            </div>
         </div>
-       <div class="footerdiv" style="display: inline-block;">
-        <h3>Termos</h3>
-        <a href="#">Termos de uso</a>
-        <a href="#">Termos de privacidade</a>
-        <a href="#">Termos de direitosº</a><br>
-        <a href="https://maps.app.goo.gl/otuYveUJV4iy3Sjq9"><i class="fa-solid fa-location-dot"></i> Localização</a>
 
-   </div>
-    </footer>
+        <div class="card-compra">
+            <div class="card-comprainfo">
+                <h3 style="text-align: center;">Recibo Da compra</h3>
+                <p>Subtotal:</p>
+                <p>Frete:</p>
+                <p>Total:</p>
+                <hr>
+                <button class="finalizar-compra">Finalizar pedido</button>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer-content">
+          <h3>HappyPet</h3>
+          <p>Onde seu Pet faz a festa!</p>
+          <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 HappyPet. Todos os direitos reservados.</p>
+        </div>
+      </footer>
 </body>
-
 </html>

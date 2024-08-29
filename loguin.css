@@ -1,6 +1,6 @@
 .cardlogin {
     display:grid;
-    border: 1px solid rgb(256,164,44);
+    border: 1px solid rgb(93, 173, 226);
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -9,6 +9,7 @@
     height: 300px;
     margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 .cardlogin form {
     display: flex;
@@ -16,7 +17,7 @@
 }
 button{
     border-radius: 20px;
-    background-color: rgb(256,164,44);
+    background-color: rgb(93, 173, 226);
     color: white;
 }
 body{
@@ -24,5 +25,5 @@ body{
 }
 input{
     border-radius: 30px;
-    border: 1px solid rgb(256,164,44);
+    border: 1px solid rgb(93, 173, 226);
 }

@@ -1,5 +1,5 @@
 .card { 
-    border: 1px solid rgb(256,164,44);
+    border: 1px solid rgb(93, 173, 226);
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -8,13 +8,14 @@
     margin: 0 auto;
     float: left;
     width: 50%;
+    margin-bottom: 100px;
 }
 .imgmedia{
    max-width: 100%;
    
 }
 section{
-    display:grid;
+    display:flex;
 }
 .acont{
     margin: 0 auto ;
@@ -26,6 +27,4 @@ section{
   width: 100%;
   padding-top: 100px;
 }
-body{
-    background-color: #f9f9f9;
-}
+
