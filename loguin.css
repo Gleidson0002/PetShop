@@ -9,7 +9,7 @@
     height: 300px;
     margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 1000px;
 }
 .cardlogin form {
     display: flex;
@@ -26,4 +26,10 @@ body{
 input{
     border-radius: 30px;
     border: 1px solid rgb(93, 173, 226);
+}
+.cardlogin i{
+    margin-top: 10px;
+    font-size: 40px;
+    margin: 0 auto;
+    color:rgb(93, 173, 226);
 }

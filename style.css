@@ -1,16 +1,14 @@
-
-
 nav{
-  background-color: rgba(255, 140, 0, 0);
+  background-color: rgba(0, 174, 255, 0);
   display: flex; 
   justify-content: center; 
   align-items: center;
   position: fixed;
-  width: 100%;
-  left: 0;
+  width: 95%;
+  left: 5%;
 }
 li {
-  margin: 2px; 
+  margin: 20px; 
   display: inline;
 }
 li a {
@@ -18,14 +16,20 @@ li a {
   align-items: center; 
   justify-content: center; 
   text-decoration: none;
+ 
 }
 .nav1{
   position: fixed; 
   top: 0; 
   width: 100%; 
-  padding: 2.6%;
+  padding: 40px;
   background-color: rgb(93, 173, 226);
-  display: block;
+
+  box-shadow: 2px 2px 2px black;
+}
+.nav1 a{
+  height: 40px;
+  max-width: 100%;
 }
 img {
   max-width: 70%; 
@@ -44,10 +48,17 @@ body {
   border-radius: 20px;
   background-color: rgb(93, 173, 226);
 }
-img{
+nav i{
   margin: auto;
   display: block;
+  font-size: 30px;
+  width: 50px;
+  color: black;
 }
+nav i:hover{
+  transform: scale(1.5);
+}
+
 #img1{
   max-width: 100%;
   
@@ -70,7 +81,6 @@ img{
 #logo {
   width: 75px;
   height: 75px;
-  position: absolute;  
   display: block;
   position: fixed;
   top: 5px;             
