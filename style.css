@@ -4,8 +4,8 @@ nav{
   justify-content: center; 
   align-items: center;
   position: fixed;
-  width: 95%;
-  left: 5%;
+  width: 90%;
+  left: 10%;
 }
 li {
   margin: 20px; 
@@ -94,6 +94,7 @@ header{
   width: 700px;
   
 }footer {
+  margin-top: 5%;
   background-color: #333;
   color: rgb(93, 173, 226);
   text-align: center;
@@ -139,4 +140,33 @@ header{
 
 .footer-bottom p {
   margin: 0;
+}
+
+@media only screen and (max-width:700px){
+  nav{
+    width: 70%;
+    left: 30%;
+    top: 17px;
+  }
+  li {
+    margin: 7px; 
+  }
+  .boxcarrosel{
+    padding: 0;
+    width: 100%;
+    border: 1px solid rgba(52, 125, 173, 0);
+    background-color: rgba(93, 173, 226, 0);
+    margin-bottom: 0;
+  }
+  nav i{
+    font-size: 30px;
+    width: 40px;
+  }
+  #img1{
+   width: 100%;
+  }
+  .title{
+    font-size: 30px;
+    margin-top: 50px; 
+  }
 }

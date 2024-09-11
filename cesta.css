@@ -11,8 +11,9 @@ body {
     margin: auto;
     margin-top: 100px;
     background-color: #fff;
-    margin-bottom: 1000px;
     border-radius: 10px;
+    border: 1px solid rgb(93, 173, 226);
+    
 }
 
 .card{
@@ -84,6 +85,7 @@ body {
     color: #888;
 }
 .card-comprainfo {
+    margin-left: 24px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -109,6 +111,7 @@ body {
     flex-direction: column;
 }
 .buscarcep{
+    transform: translateX(12px);
     background-color: #fefefe;
 }
 .resultado{
@@ -131,4 +134,50 @@ body {
 .buscarcep label{
     color: rgb(93, 173, 226);
     font-size: large;
+}
+
+@media only screen and (max-width:700px){
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        margin-bottom: 300px;
+
+    } 
+    .box{
+        border: 1px solid #ddd;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+    .buscarcep h1{
+        display:none;
+    }
+    .buscarcep{
+        padding: 25px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .card-comprainfo {
+        border: 0px;
+    }
+    .buscarcep hr{
+        display: none;
+    }
+    .buscarcep input{
+        width:100px;
+        border-radius: 10px;
+        border: 1px solid rgb(93, 173, 226);
+    }
+    .buscarcep label{
+        color: rgb(93, 173, 226);
+        font-size: large;
+    }
+    .card{
+        padding: 50px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+
 }
