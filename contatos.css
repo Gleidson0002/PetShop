@@ -1,0 +1,27 @@
+.contatosbox{
+    background-color: rgb(93, 173, 226);
+    width: auto;
+    margin-top: 50px;
+    display: flex;
+}
+.contato1{
+    text-align: center;
+    width: 20%;
+}
+.logo-contt{
+    border-radius: 50px;
+}
+.clientes{
+    width: 60%;
+    text-align: center;
+}
+.cliente1{
+    width: 33%;
+}
+.contbox{
+    margin-top: 20px;
+    display:flex;
+}
+.cli-imag{
+    border-radius: 70px;
+}
